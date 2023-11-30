@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+
+body{
+background: #fdfefe;
+}
+
+.navbar{
+  font-family: "Alfa Slab One";
+  background: #b0dee5;
+  border-bottom: 5px solid #111111;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.navbar-nav .nav-item > li {
+  list-style-type: none;
+}
+.marker {
+  list-style: none !important;
+}
+
+
+.nav-link{
+  color: #111111;
+  font-size: 2em;
+}
+.navbar h1, h2{
+  text-align: center;
+  margin-left: auto;
+  color: #111111;
+}
+.nav-link:hover{
+  color: #BE0029;
+}
+.navbar-collapse{
+  justify-content: flex-end;
+}
+.header {
+  background-image: url('TSM bg.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+.login{
+    border-radius: 4px;
+    border: 3px solid #111111;
+    background: #fdfefe;
+    font-family: "Alfa Slab One";
+    font-size: 1.5em;
+}
+
+.headBtn , .login, .signup{
+  border-radius: 4px;
+  border: 3px solid #111111;
+  background: #fdfefe;
+  font-family: "Alfa Slab One";
+  font-size: 1.5em;
+}
+.headBtn:hover , .login:hover, .signup:hover{
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 50px;
+  border-radius: 70px;
+  border: 5px solid #111111;
+  background-color: #b0dee5;
+}
+.description h1, h2{
+  font-weight: bold;
+  color: #111111;
+}
+.description h5{
+  color: #2a2a2a;
+}
+.description p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.description input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.description input[type="text"] , input[type="password"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #111111;
+  font-size: 16px;
+}
+.description input[type="submit"]{
+  height: 40px;
+  border-radius: 4px;
+  border: 3px solid #111111;
+  background: #fdfefe;
+  font-size: 18px;
+  font-family: "Alfa Slab One";
+}
+.description input[type="submit"]:hover{
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+.description a{
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: #2a2a2a;
+}
+.description a:hover{
+  color: #ffc107;
+}
+
+.block{
+  left: 50%;
+  position:absolute;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.carousel-item{
+  height: 60rem;
+  color: #111111;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.carousel-item p{
+  color: #111111;
+}
+.carousel-item h1{
+  font-weight: bold;
+}
+.container{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 40px;
+  border-radius: 50px;
+}
+.page-footer {
+  background-color: #d7eef2;
+  color: #2a2a2a;
+  padding: 60px 0 30px;
+}
+.container1{
+  margin-left: 10em;
+}
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+}
